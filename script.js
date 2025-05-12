@@ -183,7 +183,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Vieraspeli Helsingissä. Tule kannustamaan!", 
         url: "https://www.karpat.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Kärppien videosta 
+        youtubeUrl: "https://www.youtube.com/embed/NyAJZWoRLqw?si=OM77wki3GvpiVUrk" // Esimerkki Kärppien videosta 
     },
     { 
         id: "15", 
