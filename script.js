@@ -224,7 +224,7 @@ const events = [
         ticketPrice: "15€", 
         description: "Paikallinen lentopalloderby Kallahden palloiluhallissa.", 
         url: "https://www.lentopallo.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/P2XIuYKvAZo?si=FY-0_OF-n4s31PJB" // Esimerkki lentopallon videosta
     },
     { 
         id: "18", 
@@ -237,7 +237,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Kesäkauden lentopalloturnaus Myllypuron hallissa.", 
         url: "https://www.lentopallo.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/P2XIuYKvAZo?si=FY-0_OF-n4s31PJB" // Esimerkki lentopallon videosta 
     },
     { 
         id: "19", 
@@ -250,7 +250,7 @@ const events = [
         ticketPrice: "5€", 
         description: "Rantalentopalloturnaus Biitsillä, Pasilassa. Kesäinen tunnelma!", 
         url: "https://www.biitsi.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/fGcDXRbcQNU?si=QpZ7UtLqmtvvQyh0" // Esimerkki lentopallon videosta 
     },
     { 
         id: "20", 
@@ -263,7 +263,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Joulukuun lentopalloturnaus Kaivokselan koululla.", 
         url: "https://www.lentopallo.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/P2XIuYKvAZo?si=FY-0_OF-n4s31PJB" // Esimerkki lentopallon videosta 
     },
     { 
         id: "21", 
@@ -276,7 +276,7 @@ const events = [
         ticketPrice: "5€", 
         description: "Harrastelijoiden lentopalloturnaus Länsi-Vantaalla.", 
         url: "https://www.lentopallo.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/P2XIuYKvAZo?si=FY-0_OF-n4s31PJB" // Esimerkki lentopallon videosta 
     },
     { 
         id: "22", 
@@ -289,7 +289,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Syyskauden ottelu. Tule kannustamaan Helsinki Volleyta!", 
         url: "https://www.lentopallo.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/P2XIuYKvAZo?si=FY-0_OF-n4s31PJB" // Esimerkki lentopallon videosta 
     },
     { 
         id: "23", 
@@ -302,7 +302,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Kesäkauden ottelu Vantaalla. Luvassa jännittävä peli!", 
         url: "https://www.lentopallo.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/P2XIuYKvAZo?si=FY-0_OF-n4s31PJB" // Esimerkki lentopallon videosta 
     }
 ];
 
