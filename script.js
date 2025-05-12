@@ -25,7 +25,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Kiihkeä derby Vantaalla. Tule kannustamaan!", 
         url: "https://www.pk-35.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki PK-35:n videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/0iSRbfbLAss?si=zCfuRDFj1cbYW58Q" // Esimerkki PK-35:n videosta (korvaa oikealla)
     },
     { 
         id: "3", 
