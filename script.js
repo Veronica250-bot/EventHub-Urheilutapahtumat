@@ -131,7 +131,7 @@ const events = [
         ticketPrice: "35€", 
         description: "Kiihkeä paikallisottelu jäähallissa. Älä missaa tätä klassikkoa!", 
         url: "https://www.hifk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/0q7TvaX9QYE" // HIFK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/5SBmSpC4lC8?si=DNG0lt1NjBXE6Icl" // HIFK:n virallinen video
     },
     { 
         id: "11", 
@@ -157,7 +157,7 @@ const events = [
         ticketPrice: "35€", 
         description: "Talven klassikko. Luvassa jännittävä ottelu!", 
         url: "https://www.hifk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/0q7TvaX9QYE" // HIFK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/5SBmSpC4lC8?si=DNG0lt1NjBXE6Icl" // HIFK:n virallinen video
     },
     { 
         id: "13", 
@@ -196,7 +196,7 @@ const events = [
         ticketPrice: "35€", 
         description: "Kesäkauden ottelu. Luvassa viihdyttävä ilta!", 
         url: "https://www.hifk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/0q7TvaX9QYE" // HIFK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/5SBmSpC4lC8?si=DNG0lt1NjBXE6Icl" // HIFK:n virallinen video
     },
     { 
         id: "16", 
