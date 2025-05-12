@@ -120,8 +120,8 @@ h2 {
     max-width: 200px;
 }
 
-/* YouTube-videon muotoilu */
-.video-container {
+/* YouTube-videon ja kartan muotoilu */
+.video-container, .map-container {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
@@ -129,7 +129,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.video-container h3 {
+.video-container h3, .map-container h3 {
     font-size: 18px;
     color: #333;
     margin-bottom: 10px;
@@ -139,6 +139,11 @@ h2 {
     width: 100%;
     height: 315px;
     border: none;
+    border-radius: 5px;
+}
+
+.map-container img {
+    width: 100%;
     border-radius: 5px;
 }
 
@@ -207,7 +212,7 @@ h2 {
         font-size: 14px;
     }
 
-    .video-container iframe {
+    .video-container iframe, .map-container img {
         height: 200px;
     }
 
@@ -224,7 +229,7 @@ h2 {
         max-width: 180px;
     }
 
-    .video-container iframe {
+    .video-container iframe, .map-container img {
         height: 250px;
     }
 }
