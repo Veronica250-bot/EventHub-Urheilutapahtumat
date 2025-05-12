@@ -38,7 +38,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesäkauden huippuottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/1fnA30fHut0?si=9Pk4SK4ug9c7-54E" // HJK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/bpKDKPmiOns?si=r9Zy-8CYci9xf56Y" // HJK:n virallinen video
     },
     { 
         id: "4", 
@@ -51,7 +51,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesän huippuottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/1fnA30fHut0?si=9Pk4SK4ug9c7-54E" // HJK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/bpKDKPmiOns?si=r9Zy-8CYci9xf56Y" // HJK:n virallinen video
     },
     { 
         id: "5", 
@@ -90,7 +90,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesäkauden jännittävä ottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/1fnA30fHut0?si=9Pk4SK4ug9c7-54E" // HJK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/bpKDKPmiOns?si=r9Zy-8CYci9xf56Y" // HJK:n virallinen video
     },
     { 
         id: "8", 
