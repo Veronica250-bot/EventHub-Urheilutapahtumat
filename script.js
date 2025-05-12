@@ -38,7 +38,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesäkauden huippuottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/9gP5g0QDBv8" // HJK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/1fnA30fHut0?si=9Pk4SK4ug9c7-54E" // HJK:n virallinen video
     },
     { 
         id: "4", 
@@ -51,7 +51,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesän huippuottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/9gP5g0QDBv8" // HJK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/1fnA30fHut0?si=9Pk4SK4ug9c7-54E" // HJK:n virallinen video
     },
     { 
         id: "5", 
@@ -90,7 +90,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesäkauden jännittävä ottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        youtubeUrl: "https://www.youtube.com/embed/9gP5g0QDBv8" // HJK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/1fnA30fHut0?si=9Pk4SK4ug9c7-54E" // HJK:n virallinen video
     },
     { 
         id: "8", 
@@ -116,7 +116,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Syyskauden ottelu Vantaalla. Tule kannustamaan PK-35:ttä!", 
         url: "https://www.pk-35.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki PK-35:n videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/0iSRbfbLAss?si=zCfuRDFj1cbYW58Q" // Esimerkki PK-35:n videosta (korvaa oikealla)
     },
 
     // Jääkiekko
