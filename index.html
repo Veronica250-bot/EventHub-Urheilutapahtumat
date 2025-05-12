@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EventHub – Urheilutapahtumat</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container mt-4">
+        <h1>EventHub – Urheilutapahtumat</h1>
+        <div class="filter-section text-center">
+            <div class="mb-3">
+                <button class="btn filter-btn" onclick="filterEvents('all', document.getElementById('monthFilter').value)" aria-label="Näytä kaikki tapahtumat">Kaikki</button>
+                <button class="btn filter-btn" onclick="filterEvents('Jalkapallo', document.getElementById('monthFilter').value)" aria-label="Näytä jalkapallotapahtumat">Jalkapallo</button>
+                <button class="btn filter-btn" onclick="filterEvents('Jääkiekko', document.getElementById('monthFilter').value)" aria-label="Näytä jääkiekkotapahtumat">Jääkiekko</button>
+                <button class="btn filter-btn" onclick="filterEvents('Lentopallo', document.getElementById('monthFilter').value)" aria-label="Näytä lentopallotapahtumat">Lentopallo</button>
+                <button class="btn filter-btn" onclick="filterEvents('favorites', document.getElementById('monthFilter').value)" aria-label="Näytä suosikit">Suosikit</button>
+            </div>
+            <div class="mb-3">
+                <label for="monthFilter">Suodata kuukausi:</label>
+                <select id="monthFilter" class="form-select d-inline-block w-auto" onchange="filterEvents(getCurrentSport(), this.value)">
+                    <option value="all">Kaikki</option>
+                    <option value="5.2025">Toukokuu 2025</option>
+                    <option value="6.2025">Kesäkuu 2025</option>
+                    <option value="7.2025">Heinäkuu 2025</option>
+                    <option value="8.2025">Elokuu 2025</option>
+                    <option value="9.2025">Syyskuu 2025</option>
+                    <option value="10.2025">Lokakuu 2025</option>
+                    <option value="11.2025">Marraskuu 2025</option>
+                    <option value="12.2025">Joulukuu 2025</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="sortFilter">Lajittele:</label>
+                <select id="sortFilter" class="form-select d-inline-block w-auto" onchange="filterEvents(getCurrentSport(), document.getElementById('monthFilter').value)">
+                    <option value="default">Oletus</option>
+                    <option value="date-asc">Päivämäärä (nouseva)</option>
+                    <option value="date-desc">Päivämäärä (laskeva)</option>
+                    <option value="price-asc">Hinta (nouseva)</option>
+                    <option value="price-desc">Hinta (laskeva)</option>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="searchFilter">Hae tapahtumia:</label>
+                <input type="text" id="searchFilter" class="form-control d-inline-block w-auto" placeholder="Etsi joukkuetta, paikkaa..." oninput="filterEvents(getCurrentSport(), document.getElementById('monthFilter').value)">
+            </div>
+        </div>
+        <div id="eventList" class="event-grid"></div>
+    </div>
+    <button id="scrollToTop" class="btn btn-primary" style="position: fixed; bottom: 20px; right: 20px; display: none;">Takaisin ylös</button>
+    <script src="script.js"></script>
+</body>
+</html>
