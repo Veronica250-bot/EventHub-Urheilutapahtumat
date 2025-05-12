@@ -12,8 +12,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kauden avausottelu HJK:n kotikentällä. Luvassa tiukka kamppailu!", 
         url: "https://www.hjk.fi",
-        imageUrl: "https://www.hjk.fi/wp-content/uploads/2023/08/HJK-logo.png",
-        youtubeUrl: "https://www.youtube.com/embed/1X2K0zU2g5s" // HJK:n video
+        youtubeUrl: "https://www.youtube.com/embed/9gP5g0QDBv8" // HJK:n virallinen video
     },
     { 
         id: "2", 
@@ -26,8 +25,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Kiihkeä derby Vantaalla. Tule kannustamaan!", 
         url: "https://www.pk-35.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/1/1e/PK-35_Vantaa_logo.svg/1200px-PK-35_Vantaa_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/6kG8qI2c3eE" // PK-35:n video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki PK-35:n videosta (korvaa oikealla)
     },
     { 
         id: "3", 
@@ -40,8 +38,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesäkauden huippuottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        imageUrl: "https://www.hjk.fi/wp-content/uploads/2023/08/HJK-logo.png",
-        youtubeUrl: "https://www.youtube.com/embed/1X2K0zU2g5s" // HJK:n video
+        youtubeUrl: "https://www.youtube.com/embed/9gP5g0QDBv8" // HJK:n virallinen video
     },
     { 
         id: "4", 
@@ -54,8 +51,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesän huippuottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        imageUrl: "https://www.hjk.fi/wp-content/uploads/2023/08/HJK-logo.png",
-        youtubeUrl: "https://www.youtube.com/embed/1X2K0zU2g5s" // HJK:n video
+        youtubeUrl: "https://www.youtube.com/embed/9gP5g0QDBv8" // HJK:n virallinen video
     },
     { 
         id: "5", 
@@ -68,8 +64,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Kauden loppuhuipennus Vantaalla.", 
         url: "https://www.gnistan.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/2/2e/Gnistan.svg/1200px-Gnistan.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/9qM1rXz5e9M" // Gnistanin video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Gnistanin videosta (korvaa oikealla)
     },
     { 
         id: "6", 
@@ -82,8 +77,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Syyskauden päätös Vantaalla.", 
         url: "https://www.gnistan.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/2/2e/Gnistan.svg/1200px-Gnistan.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/9qM1rXz5e9M" // Gnistanin video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Gnistanin videosta (korvaa oikealla)
     },
     { 
         id: "7", 
@@ -96,8 +90,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kesäkauden jännittävä ottelu HJK:n kotikentällä.", 
         url: "https://www.hjk.fi",
-        imageUrl: "https://www.hjk.fi/wp-content/uploads/2023/08/HJK-logo.png",
-        youtubeUrl: "https://www.youtube.com/embed/1X2K0zU2g5s" // HJK:n video
+        youtubeUrl: "https://www.youtube.com/embed/9gP5g0QDBv8" // HJK:n virallinen video
     },
     { 
         id: "8", 
@@ -110,8 +103,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Espoon paikallisottelu, jossa Honka haastaa AC Oulun.", 
         url: "https://www.fchonka.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/3/3e/FC_Honka_logo.svg/1200px-FC_Honka_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/4zW5z5t7k0Y" // FC Honka -video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki FC Honka -videosta (korvaa oikealla)
     },
     { 
         id: "9", 
@@ -124,8 +116,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Syyskauden ottelu Vantaalla. Tule kannustamaan PK-35:ttä!", 
         url: "https://www.pk-35.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/1/1e/PK-35_Vantaa_logo.svg/1200px-PK-35_Vantaa_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/6kG8qI2c3eE" // PK-35:n video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki PK-35:n videosta (korvaa oikealla)
     },
 
     // Jääkiekko
@@ -140,8 +131,7 @@ const events = [
         ticketPrice: "35€", 
         description: "Kiihkeä paikallisottelu jäähallissa. Älä missaa tätä klassikkoa!", 
         url: "https://www.hifk.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/5/54/HIFK_logo.svg/1200px-HIFK_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/5n5z5t7k0Y" // HIFK:n video
+        youtubeUrl: "https://www.youtube.com/embed/0q7TvaX9QYE" // HIFK:n virallinen video
     },
     { 
         id: "11", 
@@ -154,8 +144,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Syyskauden avaus. Tule nauttimaan kiekkoviihteestä!", 
         url: "https://www.jokerit.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/2/2e/Jokerit_logo.svg/1200px-Jokerit_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/8zW5z5t7k0Y" // Jokereiden video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Jokereiden videosta (korvaa oikealla)
     },
     { 
         id: "12", 
@@ -168,8 +157,7 @@ const events = [
         ticketPrice: "35€", 
         description: "Talven klassikko. Luvassa jännittävä ottelu!", 
         url: "https://www.hifk.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/5/54/HIFK_logo.svg/1200px-HIFK_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/5n5z5t7k0Y" // HIFK:n video
+        youtubeUrl: "https://www.youtube.com/embed/0q7TvaX9QYE" // HIFK:n virallinen video
     },
     { 
         id: "13", 
@@ -182,8 +170,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Joulun peli. Tule nauttimaan kiekkoviihteestä!", 
         url: "https://www.jokerit.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/2/2e/Jokerit_logo.svg/1200px-Jokerit_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/8zW5z5t7k0Y" // Jokereiden video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Jokereiden videosta (korvaa oikealla)
     },
     { 
         id: "14", 
@@ -196,8 +183,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Vieraspeli Helsingissä. Tule kannustamaan!", 
         url: "https://www.karpat.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/9/9e/K%C3%A4rp%C3%A4t_logo.svg/1200px-K%C3%A4rp%C3%A4t_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/2zW5z5t7k0Y" // Kärppien video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Kärppien videosta (korvaa oikealla)
     },
     { 
         id: "15", 
@@ -210,8 +196,7 @@ const events = [
         ticketPrice: "35€", 
         description: "Kesäkauden ottelu. Luvassa viihdyttävä ilta!", 
         url: "https://www.hifk.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/5/54/HIFK_logo.svg/1200px-HIFK_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/5n5z5t7k0Y" // HIFK:n video
+        youtubeUrl: "https://www.youtube.com/embed/0q7TvaX9QYE" // HIFK:n virallinen video
     },
     { 
         id: "16", 
@@ -224,8 +209,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Syyskauden ottelu. Tule kannustamaan Jokereita!", 
         url: "https://www.jokerit.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/fi/thumb/2/2e/Jokerit_logo.svg/1200px-Jokerit_logo.svg.png",
-        youtubeUrl: "https://www.youtube.com/embed/8zW5z5t7k0Y" // Jokereiden video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Jokereiden videosta (korvaa oikealla)
     },
 
     // Lentopallo
@@ -240,8 +224,7 @@ const events = [
         ticketPrice: "15€", 
         description: "Paikallinen lentopalloderby Kallahden palloiluhallissa.", 
         url: "https://www.lentopallo.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Volleyball_%28PSF%29.png/220px-Volleyball_%28PSF%29.png",
-        youtubeUrl: "https://www.youtube.com/embed/3zW5z5t7k0Y" // Lentopallon video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
     },
     { 
         id: "18", 
@@ -254,8 +237,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Kesäkauden lentopalloturnaus Myllypuron hallissa.", 
         url: "https://www.lentopallo.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Volleyball_%28PSF%29.png/220px-Volleyball_%28PSF%29.png",
-        youtubeUrl: "https://www.youtube.com/embed/3zW5z5t7k0Y" // Lentopallon video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
     },
     { 
         id: "19", 
@@ -268,8 +250,7 @@ const events = [
         ticketPrice: "5€", 
         description: "Rantalentopalloturnaus Biitsillä, Pasilassa. Kesäinen tunnelma!", 
         url: "https://www.biitsi.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Volleyball_%28PSF%29.png/220px-Volleyball_%28PSF%29.png",
-        youtubeUrl: "https://www.youtube.com/embed/3zW5z5t7k0Y" // Lentopallon video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
     },
     { 
         id: "20", 
@@ -282,8 +263,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Joulukuun lentopalloturnaus Kaivokselan koululla.", 
         url: "https://www.lentopallo.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Volleyball_%28PSF%29.png/220px-Volleyball_%28PSF%29.png",
-        youtubeUrl: "https://www.youtube.com/embed/3zW5z5t7k0Y" // Lentopallon video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
     },
     { 
         id: "21", 
@@ -296,8 +276,7 @@ const events = [
         ticketPrice: "5€", 
         description: "Harrastelijoiden lentopalloturnaus Länsi-Vantaalla.", 
         url: "https://www.lentopallo.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Volleyball_%28PSF%29.png/220px-Volleyball_%28PSF%29.png",
-        youtubeUrl: "https://www.youtube.com/embed/3zW5z5t7k0Y" // Lentopallon video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
     },
     { 
         id: "22", 
@@ -310,8 +289,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Syyskauden ottelu. Tule kannustamaan Helsinki Volleyta!", 
         url: "https://www.lentopallo.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Volleyball_%28PSF%29.png/220px-Volleyball_%28PSF%29.png",
-        youtubeUrl: "https://www.youtube.com/embed/3zW5z5t7k0Y" // Lentopallon video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
     },
     { 
         id: "23", 
@@ -324,8 +302,7 @@ const events = [
         ticketPrice: "10€", 
         description: "Kesäkauden ottelu Vantaalla. Luvassa jännittävä peli!", 
         url: "https://www.lentopallo.fi",
-        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Volleyball_%28PSF%29.png/220px-Volleyball_%28PSF%29.png",
-        youtubeUrl: "https://www.youtube.com/embed/3zW5z5t7k0Y" // Lentopallon video
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki lentopallon videosta (korvaa oikealla)
     }
 ];
 
@@ -389,7 +366,6 @@ if (document.getElementById("eventList")) {
                 const eventCard = `
                     <div class="event-item">
                         <a href="event.html?id=${event.id}&sport=${sportFilter}&month=${monthFilter}" class="text-decoration-none text-dark">
-                            <img src="${event.imageUrl || 'https://via.placeholder.com/150'}" alt="${event.name}" style="width: 100%; height: 150px; object-fit: cover; border-radius: 5px;">
                             <h3>${event.name}</h3>
                             <p><strong>Päivämäärä:</strong> ${event.date}${event.time ? ` klo ${event.time}` : ""}</p>
                             <p><strong>Paikka:</strong> ${event.venue}, ${event.location} 
