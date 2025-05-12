@@ -116,7 +116,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Syyskauden ottelu Vantaalla. Tule kannustamaan PK-35:ttä!", 
         url: "https://www.pk-35.fi",
-        youtubeUrl: "https://www.youtube.com/embed/0iSRbfbLAss?si=FnalzJfo6gcHp1ci" // Esimerkki PK-35:n videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/0iSRbfbLAss?si=FnalzJfo6gcHp1ci" // Esimerkki PK-35:n videosta 
     },
 
     // Jääkiekko
@@ -183,7 +183,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Vieraspeli Helsingissä. Tule kannustamaan!", 
         url: "https://www.karpat.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Kärppien videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Kärppien videosta 
     },
     { 
         id: "15", 
@@ -209,7 +209,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Syyskauden ottelu. Tule kannustamaan Jokereita!", 
         url: "https://www.jokerit.fi",
-        youtubeUrl: "https://www.youtube.com/embed/EXlNaInJYBk?si=GOK1fF8x0fLV4Uph" // Esimerkki Jokereiden videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/EXlNaInJYBk?si=GOK1fF8x0fLV4Uph" // Esimerkki Jokereiden videosta 
     },
 
     // Lentopallo
