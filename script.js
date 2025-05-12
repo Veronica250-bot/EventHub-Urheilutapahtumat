@@ -25,7 +25,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Kiihkeä derby Vantaalla. Tule kannustamaan!", 
         url: "https://www.pk-35.fi",
-        youtubeUrl: "https://www.youtube.com/embed/0iSRbfbLAss?si=FnalzJfo6gcHp1ci" // Esimerkki PK-35:n videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/0iSRbfbLAss?si=FnalzJfo6gcHp1ci" // Esimerkki PK-35:n videosta
     },
     { 
         id: "3", 
@@ -144,7 +144,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Syyskauden avaus. Tule nauttimaan kiekkoviihteestä!", 
         url: "https://www.jokerit.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Jokereiden videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/EXlNaInJYBk?si=GOK1fF8x0fLV4Uph" // Esimerkki Jokereiden videosta
     },
     { 
         id: "12", 
@@ -170,7 +170,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Joulun peli. Tule nauttimaan kiekkoviihteestä!", 
         url: "https://www.jokerit.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Jokereiden videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/EXlNaInJYBk?si=GOK1fF8x0fLV4Uph" // Esimerkki Jokereiden videosta 
     },
     { 
         id: "14", 
@@ -209,7 +209,7 @@ const events = [
         ticketPrice: "30€", 
         description: "Syyskauden ottelu. Tule kannustamaan Jokereita!", 
         url: "https://www.jokerit.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Jokereiden videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/EXlNaInJYBk?si=GOK1fF8x0fLV4Uph" // Esimerkki Jokereiden videosta (korvaa oikealla)
     },
 
     // Lentopallo
