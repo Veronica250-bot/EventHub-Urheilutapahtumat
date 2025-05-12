@@ -64,7 +64,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Kauden loppuhuipennus Vantaalla.", 
         url: "https://www.gnistan.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Gnistanin videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/m-JFodBLUu4?si=kZiPKnwNpdMw1FEC" // Esimerkki Gnistanin videosta 
     },
     { 
         id: "6", 
@@ -77,7 +77,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Syyskauden päätös Vantaalla.", 
         url: "https://www.gnistan.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki Gnistanin videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/m-JFodBLUu4?si=kZiPKnwNpdMw1FEC" // Esimerkki Gnistanin videosta 
     },
     { 
         id: "7", 
@@ -103,7 +103,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Espoon paikallisottelu, jossa Honka haastaa AC Oulun.", 
         url: "https://www.fchonka.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki FC Honka -videosta (korvaa oikealla)
+        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki FC Honka -videosta
     },
     { 
         id: "9", 
