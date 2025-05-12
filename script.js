@@ -12,7 +12,7 @@ const events = [
         ticketPrice: "25€", 
         description: "Kauden avausottelu HJK:n kotikentällä. Luvassa tiukka kamppailu!", 
         url: "https://www.hjk.fi",
-        youtubeUrl: "https://youtu.be/1fnA30fHut0?si=XEl18a7rDAAyh_Y6" // HJK:n virallinen video
+        youtubeUrl: "https://www.youtube.com/embed/bpKDKPmiOns?si=r9Zy-8CYci9xf56Y" // HJK:n virallinen video
     },
     { 
         id: "2", 
