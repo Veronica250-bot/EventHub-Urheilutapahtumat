@@ -368,7 +368,7 @@ if (document.getElementById("eventList")) {
                         <a href="event.html?id=${event.id}&sport=${sportFilter}&month=${monthFilter}" class="text-decoration-none text-dark">
                             <h3>${event.name}</h3>
                             <p><strong>Päivämäärä:</strong> ${event.date}${event.time ? ` klo ${event.time}` : ""}</p>
-                            <p><strong>Paikka:</strong> <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.venue + ', ' + event.location)}" target="_blank">${event.venue}, ${event.location}</a></p>
+                            <p><strong>Paikka:</strong> ${event.venue}, ${event.location}</p>
                             <p><strong>Lipun hinta:</strong> ${event.ticketPrice}</p>
                             <p><strong>Kuvaus:</strong> ${event.description}</p>
                         </a>
@@ -418,7 +418,8 @@ if (document.getElementById("eventDetails")) {
             <div class="card-body">
                 <h2>${event.name}</h2>
                 <p><strong>Päivämäärä:</strong> ${event.date}${event.time ? ` klo ${event.time}` : ""}</p>
-                <p><strong>Paikka:</strong> <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.venue + ', ' + event.location)}" target="_blank">${event.venue}, ${event.location}</a></p>
+                <p><strong>Paikka:</strong> ${event.venue}, ${event.location}</p>
+                <p><strong>Kartta:</strong> <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(event.venue + ', ' + event.location)}" target="_blank" class="btn btn-sm btn-outline-primary">Näytä kartalla</a></p>
                 <p><strong>Lipun hinta:</strong> ${event.ticketPrice}</p>
                 <p><strong>Kuvaus:</strong> ${event.description}</p>
                 <a href="${event.url}" target="_blank" class="btn btn-primary">Lisätietoja</a>
