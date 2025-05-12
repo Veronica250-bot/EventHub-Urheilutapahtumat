@@ -120,8 +120,8 @@ h2 {
     max-width: 200px;
 }
 
-/* YouTube-videon ja kartan muotoilu */
-.video-container, .map-container {
+/* YouTube-videon muotoilu */
+.video-container {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 10px;
@@ -129,7 +129,7 @@ h2 {
     margin-bottom: 20px;
 }
 
-.video-container h3, .map-container h3 {
+.video-container h3 {
     font-size: 18px;
     color: #333;
     margin-bottom: 10px;
@@ -142,6 +142,15 @@ h2 {
     border-radius: 5px;
 }
 
+/* Karttalinkin tyylittely */
+.card-body p {
+    margin-bottom: 0.5rem; /* Tasainen väli tekstirivien välillä */
+}
+
+.card-body .btn-outline-primary {
+    margin-top: 0.25rem; /* Pieni väli "Paikka"-kohdan ja linkin välille */
+    padding: 0.25rem 0.5rem; /* Säätäminen nappulan koolle */
+}
 
 /* Takaisin ylös -painike */
 #scrollToTop {
@@ -208,7 +217,7 @@ h2 {
         font-size: 14px;
     }
 
-    .video-container iframe, .map-container img {
+    .video-container iframe {
         height: 200px;
     }
 
@@ -216,6 +225,11 @@ h2 {
         padding: 8px 15px;
         bottom: 10px;
         right: 10px;
+    }
+
+    .card-body .btn-outline-primary {
+        font-size: 12px; /* Pienempi fonttikoko pienillä näytöillä */
+        padding: 0.2rem 0.4rem; /* Pienempi padding pienillä näytöillä */
     }
 }
 
@@ -225,7 +239,7 @@ h2 {
         max-width: 180px;
     }
 
-    .video-container iframe, .map-container img {
+    .video-container iframe {
         height: 250px;
     }
 }
