@@ -103,7 +103,7 @@ const events = [
         ticketPrice: "20€", 
         description: "Espoon paikallisottelu, jossa Honka haastaa AC Oulun.", 
         url: "https://www.fchonka.fi",
-        youtubeUrl: "https://www.youtube.com/embed/dQw4w9WgXcQ" // Esimerkki FC Honka -videosta
+        youtubeUrl: "https://www.youtube.com/embed/c6ONZoC2YXE?si=ui4aaEU4C6LbK631" // Esimerkki FC Honka -videosta
     },
     { 
         id: "9", 
